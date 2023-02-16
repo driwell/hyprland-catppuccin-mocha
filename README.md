@@ -1,2 +1,2 @@
-# Hyperland [rice name tbd]
+# Hyprland [rice name tbd]
 Early phase configuration files for a Hyprland rice.
