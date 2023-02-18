@@ -9,7 +9,7 @@ indicator-idle-visible
 screenshots
 clock
 fade-in=1
-effect-blur=10x2
+effect-blur=10x10
 
 # Font
 font=RecursiveSansCasualStatic
