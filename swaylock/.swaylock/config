@@ -16,7 +16,7 @@ font=RecursiveSansCasualStatic
 
 # Date & Time format
 datestr=%Y-%m-%d
-timestr=%H:%M
+timestr=%I:%M %p
 
 # Ring shape
 indicator-radius=200
