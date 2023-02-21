@@ -40,7 +40,7 @@
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{essid} ({signalStrength}%) <span font='14'>󰖩</span>",
         "format-ethernet": "Connected <span font='14'>󰈁</span>",
-        "tooltip-format": "{ifname} via {gwaddr} <span font='14'>󰈁</span>",
+        "tooltip-format": "{ifname} via {gwaddr}/{cidr}",
         "format-linked": "{ifname} (No IP) <span font='14'>󰈁</span>",
         "format-disconnected": "Disconnected <span font='14'>󰈂</span>",
         "format-alt": "{ipaddr}"
