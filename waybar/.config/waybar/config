@@ -10,9 +10,15 @@
     // Modules configuration
     "wlr/workspaces": {
         "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+          "urgent": "",
+          "active": "",
+          "default": ""
+        },
+        "sort-by-number": true,
         "on-scroll-up": "hyprctl dispatch workspace e+1",
-        "on-scroll-down": "hyprctl dispatch workspace e-1",
-        "on-click": "activate"
+        "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
     "tray": {
         // "icon-size": 21,
