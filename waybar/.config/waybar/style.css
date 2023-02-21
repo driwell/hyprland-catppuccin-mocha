@@ -3,7 +3,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: Recursive Sans Casual Static, Symbols Nerd Font;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 window#waybar {
@@ -90,8 +90,10 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #mpd {
+    min-width: 100px;
     padding: 0 10px;
     color: @base;
+    border-radius: 0 0 0 0;
 }
 
 #window,

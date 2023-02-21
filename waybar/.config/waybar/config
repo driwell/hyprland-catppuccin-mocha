@@ -31,28 +31,28 @@
         "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
-        "format": "{usage}% 󰻠"
+        "format": "{usage}% <span font='14'>󰻠</span>"
     },
     "memory": {
-        "format": "{}% 󰍛"
+        "format": "{}% <span font='14'>󰍛</span>"
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) 󰖩",
-        "format-ethernet": "Connected 󰈁",
-        "tooltip-format": "{ifname} via {gwaddr} 󰈁",
-        "format-linked": "{ifname} (No IP) 󰈁",
-        "format-disconnected": "Disconnected 󰈂",
+        "format-wifi": "{essid} ({signalStrength}%) <span font='14'>󰖩</span>",
+        "format-ethernet": "Connected <span font='14'>󰈁</span>",
+        "tooltip-format": "{ifname} via {gwaddr} <span font='14'>󰈁</span>",
+        "format-linked": "{ifname} (No IP) <span font='14'>󰈁</span>",
+        "format-disconnected": "Disconnected <span font='14'>󰈂</span>",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon}",
-        "format-bluetooth": "{volume}% {icon}",
-        "format-bluetooth-muted": "󰖁",
-        "format-muted": "󰖁",
-        "format-source": "{volume}% 󰕾",
-        "format-source-muted": "󰖁",
+        "format": "{volume}% <span font='14'>{icon}</span>",
+        "format-bluetooth": "{volume}% <span font='14'>{icon}</span>",
+        "format-bluetooth-muted": "<span font='14'>󰖁</span>",
+        "format-muted": "<span font='14'>󰖁</span>",
+        "format-source": "{volume}% <span font='14'>󰕾</span>",
+        "format-source-muted": "<span font='14'>󰖁</span>",
         "format-icons": {
             "headphone": "",
             "hands-free": "󰋎",
