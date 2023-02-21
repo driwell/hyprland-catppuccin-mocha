@@ -1,4 +1,4 @@
-# Hyprland [rice name tbd]
+# Hyprland Catppuccin Mocha
 Early phase configuration files for a Hyprland rice.
 
 <br/>
