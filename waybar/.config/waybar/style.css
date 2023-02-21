@@ -91,7 +91,7 @@ button:hover {
 #scratchpad,
 #mpd {
     padding: 0 10px;
-    color: #ffffff;
+    color: @base;
 }
 
 #window,
@@ -214,7 +214,8 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    color: @base;
+    background-color: @peach;
 }
 
 #tray > .passive {
