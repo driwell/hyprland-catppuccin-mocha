@@ -43,7 +43,7 @@
         "tooltip-format": "{ifname} via {gwaddr} <span font='14'>󰈁</span>",
         "format-linked": "{ifname} (No IP) <span font='14'>󰈁</span>",
         "format-disconnected": "Disconnected <span font='14'>󰈂</span>",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-alt": "{ipaddr}"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float

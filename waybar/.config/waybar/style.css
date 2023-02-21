@@ -1,14 +1,12 @@
 @import "mocha.css";
 
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: Recursive Sans Casual Static, Symbols Nerd Font;
+    font-family: 'Recursive Sans Casual Static', 'Symbols Nerd Font', 'Recursive Mono Casual Static';
     font-size: 14px;
 }
 
 window#waybar {
     background-color: rgba(30, 30, 46, 0.5);
-    border-bottom: 3px solid rgba(30, 30, 46, 0.5);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -16,24 +14,6 @@ window#waybar {
 
 window#waybar.hidden {
     opacity: 0.2;
-}
-
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
-
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
 }
 
 button {
@@ -46,7 +26,7 @@ button {
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
-    background: @overlay;
+    background: @overlay0;
     box-shadow: inset 0 -3px @overlay0;
 }
 
@@ -72,6 +52,12 @@ button:hover {
 #mode {
     background-color: #64727D;
     border-bottom: 3px solid #ffffff;
+}
+
+tooltip {
+    color: @text;
+    background: rgba(30, 30, 46, 0.5);
+    border: 3px solid @teal;
 }
 
 #clock,
