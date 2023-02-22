@@ -11,11 +11,6 @@
 		<img alt="Discord" src="https://img.shields.io/github/contributors/dav-med/dotfiles?style=for-the-badge&logo=Gitea&color=74C7EC&logoColor=D9E0EE&labelColor=1e1e2e"></a>
 </p>
 
-
-<br/>
-
-<h6 align="center"> Note: The showcase bellow is already outdated as this is a WIP but it's still good enough to give an idea of how it looks for now.</h6>
-
 <br/>
 
 <img src="https://github.com/dav-med/dotfiles/blob/main/screenshots/showcase.png"/>

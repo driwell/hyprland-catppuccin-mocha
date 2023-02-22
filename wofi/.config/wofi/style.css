@@ -3,7 +3,7 @@ window {
 	font-size: 13px;
   margin: 0px;
   border: 5px solid #94e2d5;
-  background-color: rgba(30, 30, 46, 0.5);
+  background-color: #1e1e2e;
   border-radius: 15px;
 }
 
@@ -46,6 +46,7 @@ window {
 
 #text {
   color: #cdd6f4;
+  border-radius: 15px;
 }
 
 #text:selected {
