@@ -119,6 +119,8 @@ plugins=(git sudo web-search copybuffer copypath vi-mode jsontools)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland'
+alias spotify='LD_PRELOAD=/usr/lib/spotifywm.so spotify --enable-features=UseOzonePlatform --ozone-platform=wayland'
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
